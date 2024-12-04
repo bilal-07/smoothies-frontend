@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { UpdateSmoothieInput } from './types';
 
-const API_URL = "http://localhost:5001/api/smoothies"
+const API_URL = "http://moothies-backend.us-east-1.elasticbeanstalk.com/api/smoothies"
 
 const api = axios.create({
     baseURL: API_URL,
